@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    position: relative;
+    height: 100vh;
+}
+
+img {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#stopWatch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2DED28;
+    z-index: 1;
+    font-size: 1.7rem;
+    margin-top: -1rem;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+
+i {
+    color: white;
+    font-size: 1.6rem;
+    background-color: #242424;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
